@@ -1,0 +1,39 @@
+Arguments: 
+  /usr/local/Cellar/node/13.11.0/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js global bin
+
+PATH: 
+  /Users/patricksilveira/opt/anaconda3/bin:/Users/patricksilveira/opt/anaconda3/condabin:/Users/patricksilveira/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  13.11.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/patricksilveira/Code/nlw_1/package.json: Unexpected token } in JSON at position 173
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+      "name": "nlw_1",
+      "main": "src/server.js",
+      "scripts": {
+          "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "author": "Patrick Silveira",
+  
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
